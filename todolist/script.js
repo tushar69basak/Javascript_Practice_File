@@ -9,7 +9,7 @@ function addTask() {
     li.innerHTML = inputBox.value;
     itemContainer.appendChild(li)
     let span = document.createElement("span");
-    span.innerHTML = "\u00d7";
+    span.innerHTML = "Delete";
     li.appendChild(span)
 
   }
